@@ -1,1 +1,1 @@
-# workshop-soft-dev
+# Workshop: Practical introduction to Software Development for begginers via C#
