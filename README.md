@@ -11,5 +11,5 @@ You will learn the process of designing, programming and testing needed to creat
 ## Useful resources
 - When it comes to software development on the .Net framework, you have [different options](https://visualstudio.microsoft.com/) on the software to use, based on your particular needs.  
 This course recommends using Visual Studio community edition (for [Windows](https://visualstudio.microsoft.com/vs/) or [Mac](https://visualstudio.microsoft.com/vs/mac/))  
- [Visual Studio Code](https://code.visualstudio.com/) can also a perfectly viable option depending on your previous experience with coding and the .Net framework
+ [Visual Studio Code](https://code.visualstudio.com/) can also be a perfectly viable option depending on your previous experience with coding and the .Net framework
 - Official [C# documentation](https://docs.microsoft.com/en-us/dotnet/csharp/)
