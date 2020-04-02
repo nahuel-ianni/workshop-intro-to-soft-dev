@@ -9,8 +9,6 @@ namespace Recipes
         ///     Console.ReadLine() method   - Reads user input from the console
         ///     Console.Clear() method      - Clears all the content of the window
         ///     string variable_name = "";  - String variable creation and assignation
-
-
         static void Main(string[] args)
         {
             // Declares a set of variables
@@ -43,11 +41,46 @@ namespace Recipes
             /// Example:
             /// Ingredients     |   Comments
             /// Sugar           |   1 teaspoon
-            Console.WriteLine();
 
+            // Notify the user what will be needed out of him/her
+            Console.WriteLine(
+                $"{name}, let's go through the ingredients needed to prepare your pizza dough.\n" +
+                $"Don't forget to specify if the ingredient has any special condition!");
+            
+            // Ask the user for the ingredients, making sure he/she knows what is required to do
+            Console.Write("\nHow much yeast do you need? ");
+            string yeast = Console.ReadLine();
 
-            // YOUR CODE GOES HERE!
+            Console.Write("\nHow much sugar do you need? ");
+            string sugar = Console.ReadLine();
 
+            Console.Write("\nHow much water do you need? ");
+            string water = Console.ReadLine();
+
+            Console.Write("\nHow much oil do you need? ");
+            string oil = Console.ReadLine();
+
+            Console.Write("\nHow much salt do you need? ");
+            string salt = Console.ReadLine();
+
+            Console.Write("\nHow much flour do you need? ");
+            string flour = Console.ReadLine();
+
+            Console.Clear();
+
+            // Show the user how the ingredient table looks at the end
+            Console.WriteLine(
+                $"{recipeName}{name}\n\n" +
+                $"Ingredients table\n" +
+                $"|     Ingredient      |       Comments             |\n" +
+                $"| =================== | ========================== |\n" +
+                $"|     Yeast           |       {yeast}               \n" +
+                $"|     Sugar           |       {sugar}               \n" +
+                $"|     Water           |       {water}               \n" +
+                $"|     Oil             |       {oil}                 \n" +
+                $"|     Salt            |       {salt}                \n" +
+                $"|     Flour           |       {flour}               \n" +
+                $"  =================== | ==========================  \n");
 
             // Reads a key from the keyboard. Used to pause execution of the application
             Console.ReadKey();
